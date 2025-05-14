@@ -20,3 +20,40 @@ The codebase is adapted from the GitHub repositories of **de Kok** and **Castela
    ```bash
    git clone https://github.com/yourusername/AD-DEC.git
    cd AD-DEC
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Run training:
+   ```bash
+   python scripts/train.py
+
+4. Evaluate clustering:
+   ```bash
+   python scripts/evaluate.py
+
+📊 Input Data Format
+Expected format is a .csv file where each row corresponds to a single participant, and columns include:
+
+Biomarker summaries (mean, SD, skew) across timepoints
+
+Composite cognitive scores
+
+Demographics: age, sex, APOE genotype
+
+Optional: MRI features, medication use, family history of AD
+
+Note: Actual WRAP data is not shared in this repository. Synthetic mock input is provided for demonstration.
+
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+🙏 Acknowledgments
+Wisconsin Registry for Alzheimer’s Prevention (WRAP)
+
+Deep Embedded Clustering by Xie et al.
+
+Adapted from:
+de Kok GitHub
+Castela Forte GitHub
