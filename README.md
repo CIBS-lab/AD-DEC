@@ -36,13 +36,13 @@ The codebase is adapted from the GitHub repositories of **de Kok** and **Castela
 📊 Input Data Format
 Expected format is a .csv file where each row corresponds to a single participant, and columns include:
 
-Biomarker summaries (mean, SD, skew) across timepoints
+   Biomarker summaries (mean, SD, skew) across timepoints
 
-Composite cognitive scores
+   Composite cognitive scores
 
-Demographics: age, sex, APOE genotype
+   Demographics: age, sex, APOE genotype
 
-Optional: MRI features, medication use, family history of AD
+   Optional: MRI features, medication use, family history of AD
 
 Note: Actual WRAP data is not shared in this repository. Synthetic mock input is provided for demonstration.
 
