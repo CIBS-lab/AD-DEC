@@ -1,0 +1,23 @@
+{
+  "_model": "AHA PREVENT, 10-year total cardiovascular disease risk, base model",
+  "_source": "Khan SS, et al. Circulation. 2024;149:430-449, supplemental appendix",
+  "_units": "cholesterol converted to mmol/L internally; SBP mm Hg; eGFR mL/min/1.73m2",
+  "_instructions": "Fill every null with the validated coefficient, then set _verified to true.",
+  "_verified": false,
+  "female": {
+    "intercept": null, "cage": null, "non_hdl": null, "hdl": null,
+    "sbp_lt110": null, "sbp_ge110": null, "diabetes": null, "smoker": null,
+    "egfr_lt60": null, "egfr_ge60": null, "bp_meds": null, "statin": null,
+    "bpmeds_x_sbp_ge110": null, "statin_x_non_hdl": null,
+    "cage_x_non_hdl": null, "cage_x_hdl": null, "cage_x_sbp_ge110": null,
+    "cage_x_diabetes": null, "cage_x_smoker": null, "cage_x_egfr_lt60": null
+  },
+  "male": {
+    "intercept": null, "cage": null, "non_hdl": null, "hdl": null,
+    "sbp_lt110": null, "sbp_ge110": null, "diabetes": null, "smoker": null,
+    "egfr_lt60": null, "egfr_ge60": null, "bp_meds": null, "statin": null,
+    "bpmeds_x_sbp_ge110": null, "statin_x_non_hdl": null,
+    "cage_x_non_hdl": null, "cage_x_hdl": null, "cage_x_sbp_ge110": null,
+    "cage_x_diabetes": null, "cage_x_smoker": null, "cage_x_egfr_lt60": null
+  }
+}
