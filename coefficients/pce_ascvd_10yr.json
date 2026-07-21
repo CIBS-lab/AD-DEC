@@ -1,0 +1,11 @@
+{
+  "_model": "2013 ACC/AHA Pooled Cohort Equations, 10-year ASCVD risk",
+  "_source": "Goff DC Jr, et al. Circulation. 2014;129(25 Suppl 2):S49-S73, Appendix 7",
+  "_note": "No equation exists for Hispanic adults; scored with white_or_other by convention.",
+  "_instructions": "Fill S0, mean_S, and each beta from the source, then set _verified to true.",
+  "_verified": false,
+  "white_or_other_female": {"S0": null, "mean_S": null, "beta": {}},
+  "white_or_other_male":   {"S0": null, "mean_S": null, "beta": {}},
+  "black_female":          {"S0": null, "mean_S": null, "beta": {}},
+  "black_male":            {"S0": null, "mean_S": null, "beta": {}}
+}
